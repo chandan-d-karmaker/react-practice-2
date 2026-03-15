@@ -2,7 +2,7 @@ import './App.css'
 
 export default function User({ user }) {
     
-    const { name, username, email, phone } = user;
+    const { name, username, email, phone, company} = user;
     
     return (
     <div className='my-card'>
@@ -10,6 +10,7 @@ export default function User({ user }) {
         <h4>User Name: {username}</h4>
         <h4>Email: {email}</h4>
         <p>Phone No. : {phone} </p>
+        <p>Company: {company.name}</p>
     </div>
     )
 }
