@@ -189,3 +189,9 @@
   border: 2px solid blue;
   border-radius: 12px;
 }
+.my-post{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
